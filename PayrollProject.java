@@ -28,22 +28,19 @@ public class PayrollProject {
         frame.setVisible(true);
      
      
-     Scanner sc = new Scanner(System.in);
+       Scanner in = new Scanner(System.in);
+     String key=JOptionPane.showInputDiaolog("Enter key: ");
+     String first=JOptionPane.showInputDiaolog("First Name: ");    
+      
+      String second=JOptionPane.showInputDialog("Second Name: ");
+     String id=JOptionPane.showInputDialog("Enter ID: ");
+     String pay=JOptionPane.showInputDialog("Enter pay: ");
+      double pay2=Double.parseDouble(pay);
+     Employee employee1=new Employee(first,second,id, pay2);
      
-     System.out.println("Enter key: ");
-     String key=sc.nextLine();
-     System.out.println("First name");
-String first = sc.nextLine();
+   System.exit(0);
+
      
-        System.out.println("Last name");
-     String second = sc.nextLine();
      
-System.out.println("ID number");
-     String id=sc.nextLine();
-     
-     System.out.println("Hourly pay");
-     String pay=sc.nextLine();
-     
-     Employee employee1=new Employee(first,second,id, pay);
     }
 }
