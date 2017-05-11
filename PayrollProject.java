@@ -26,6 +26,22 @@ public class PayrollProject {
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
-
+     
+     
+     Scanner sc = new Scanner(System.in);
+     
+     System.out.println("First name");
+String first = sc.nextLine();
+     
+        System.out.println("Last name");
+     String second = sc.nextLine();
+     
+System.out.println("ID number");
+     String id=sc.nextLine();
+     
+     System.out.println("Hourly pay");
+     String pay=sc.nextLine();
+     
+     Employee employee1=new Employee(first,second,id, pay);
     }
 }
