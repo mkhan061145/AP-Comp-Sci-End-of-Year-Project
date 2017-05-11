@@ -30,6 +30,8 @@ public class PayrollProject {
      
      Scanner sc = new Scanner(System.in);
      
+     System.out.println("Enter key: ");
+     String key=sc.nextLine();
      System.out.println("First name");
 String first = sc.nextLine();
      
