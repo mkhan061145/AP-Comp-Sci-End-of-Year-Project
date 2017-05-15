@@ -38,6 +38,10 @@ public class PayrollProject {
       double pay2=Double.parseDouble(pay);
      Employee employee1=new Employee(first,second,id, pay2);
      
+     
+      ArrayList<Employee> al2=new ArrayList<Employee>();
+     
+     
    System.exit(0);
 
      
