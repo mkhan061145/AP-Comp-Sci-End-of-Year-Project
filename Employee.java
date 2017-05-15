@@ -5,8 +5,8 @@ public class Employee extends Employed{
   super(first,last,id,pay);
   }
   
-  public double getWeeklyWage(int hoursWorked){
-  return pay*hoursWorked;
+  public double getWeeklyWage(){
+  return super.getWeeklyWage(hoursWorked);
   }
   
   
