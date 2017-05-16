@@ -1,8 +1,7 @@
 
 public class Administrator extends Employed{
   public Administrator(){
-    super(firstName, lastName, 
-          
+    super(firstName, lastName, identification, hourlyPay);
   }    
 
 
