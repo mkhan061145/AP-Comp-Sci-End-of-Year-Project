@@ -15,8 +15,20 @@ public class Employed {
     return pay * hoursWorked;
   }
   
+  public String getFirstName(){
+  return first;
+  }
   
+  public String getLastName(){
+  return last;
+  }
   
+  public String getID(){
+  return id;
+  }
   
+  public double getPay(){
+  return pay;
+  }
   
 }
