@@ -5,7 +5,11 @@ public class ClickListener implements ActionListener{
 		buttonN = buttonName;
 	}
 	public void actionPerformed(ActionEvent e){
-		System.out.println("I was clicked!");
+		if(count % 2 == 0){
+			System.out.println("You are now logged out.");
+		}else{
+			System.out.println("You are now logged in. Do not forget to logout when you leave.");
+		}
 		count++;
 		System.out.println("Button " + buttonN + " was clicked " + count + " number of times.");
 	}
