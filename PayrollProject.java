@@ -38,7 +38,7 @@ public class PayrollProject {
     // String key=JOptionPane.showInputDiaolog("Enter key: ");
      String first=JOptionPane.showInputDialog("First Name: ");    
       
-      String second=JOptionPane.showInputDialog("Second Name: ");
+      String second=JOptionPane.showInputDialog("Last Name: ");
      String id=JOptionPane.showInputDialog("Enter ID: ");
      String pay=JOptionPane.showInputDialog("Enter pay: ");
       double pay2=Double.parseDouble(pay);
