@@ -28,8 +28,13 @@ public class PayrollProject {
         frame.setVisible(true);
      
      
-       Scanner in = new Scanner(System.in);
-     String key=JOptionPane.showInputDiaolog("Enter key: ");
+        
+       ArrayList<Employee> employeeList=new ArrayList<Employee>();
+         int i=0;
+            Scanner in = new Scanner(System.in);
+         while(true){
+         
+    // String key=JOptionPane.showInputDiaolog("Enter key: ");
      String first=JOptionPane.showInputDiaolog("First Name: ");    
       
       String second=JOptionPane.showInputDialog("Second Name: ");
@@ -37,9 +42,10 @@ public class PayrollProject {
      String pay=JOptionPane.showInputDialog("Enter pay: ");
       double pay2=Double.parseDouble(pay);
      Employee employee1=new Employee(first,second,id, pay2);
+     employeeList.add(i,employee1);
+          i++;
      
-     
-      ArrayList<Employee> al2=new ArrayList<Employee>();
+         }
      
      
    System.exit(0);
