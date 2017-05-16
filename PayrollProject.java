@@ -8,7 +8,8 @@
  * @author Justin Anderson
  * @version 1.00 2017/5/8
  */
- 
+ import java.util.Scanner;
+import javax.swing.*;
 public class PayrollProject {
     
     public static void main(String[] args) {
