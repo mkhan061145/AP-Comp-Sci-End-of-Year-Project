@@ -35,7 +35,7 @@ public class PayrollProject {
          while(true){
          
     // String key=JOptionPane.showInputDiaolog("Enter key: ");
-     String first=JOptionPane.showInputDiaolog("First Name: ");    
+     String first=JOptionPane.showInputDialog("First Name: ");    
       
       String second=JOptionPane.showInputDialog("Second Name: ");
      String id=JOptionPane.showInputDialog("Enter ID: ");
